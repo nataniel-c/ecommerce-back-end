@@ -1,13 +1,10 @@
 # Ecommerce Back-end
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+## Description
+This code is used to run a back-end server for an ecommerce platform. The server uses express and allows a user to manage the database containing information for the products on the platform.
+
+## Usage
+This application is meant to be used in insomnia core to test http requests.
+
+## Video Demo Link
+https://youtu.be/dmRcKxuVsbs
